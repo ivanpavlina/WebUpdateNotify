@@ -1,0 +1,6 @@
+DEBUG:root:26.10.2016 14:42:15 -- Getting info from url...
+DEBUG:root:26.10.2016 14:42:16 -- Stored date: 2016-10-22 00:00:00 ; Got date: 2016-10-25 00:00:00
+DEBUG:root:26.10.2016 14:42:16 -- Alerting...
+DEBUG:root:26.10.2016 14:42:16 -- Sending e-mail... Message: Zadnji update: 25.10.2016
+http://hns-cff.hr/files/documents/11815/01.%20Parova,sudaca,delegata%2014.%20kolo.pdf
+DEBUG:root:26.10.2016 14:42:17 -- Mail successfully sent
