@@ -72,9 +72,9 @@ file0.close()
 logit("Stored date: %s ; Got date: %s" % (stored_date, last_date))
 if stored_date != str(last_date):
     logit('Alerting...')
-    gm_user = 'exitbanana@gmail.com'
-    gm_pwd = 'senkojefag'
-    send_to = 'ivan.pavlina0@gmail.com'
+    gm_user = 'xxxxxxxxx@gmail.com'
+    gm_pwd = 'xxxxxxxxx'
+    send_to = 'xxxxxxxxx@gmail.com'
     msg = 'Zadnji update: %s\nhttp://hns-cff.hr%s' % (last_date.strftime("%d.%m.%Y"), fixed_url)
     logit('Sending e-mail... Message: %s' % msg)
     res, msg = send_mail(gm_user, gm_pwd, send_to, msg)
